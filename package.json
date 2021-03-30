@@ -1,0 +1,19 @@
+{
+  "name": "svn-password",
+  "version": "0.0.1",
+  "bin": "cli.mjs",
+  "type": "module",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "cli.mjs"
+  ],
+  "dependencies": {
+    "boxen": "5.0.0",
+    "prettyjson": "1.2.1",
+    "win-dpapi": "1.1.0"
+  }
+}
